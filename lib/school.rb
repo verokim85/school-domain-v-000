@@ -5,6 +5,5 @@ class School
     @roster = roster
   end
 
-  roster = {}
 
 end
