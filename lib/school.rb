@@ -1,7 +1,7 @@
 class School
   attr_accessor :name, :roster, :length
 
-  new = []
+  roster = {}
 
   def initialize(new, roster)
     @new = new
