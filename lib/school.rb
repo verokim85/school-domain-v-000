@@ -1,10 +1,9 @@
 class School
-  @roster = {}
+  # @roster = {}
 
 
-  # def initialize(name)
-  #   @name = name
-  #   @roster = {}
-  # end
+  def initialize(roster)
+    @roster = {}
+  end
 
 end
