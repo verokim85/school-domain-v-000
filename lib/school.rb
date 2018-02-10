@@ -8,8 +8,7 @@ class School
     end
   end
 
-  def add_student=(name, grade)
-
+  def add_student(name, grade)
       if @roster.include?(grade) == true
           @roster << name
       else
