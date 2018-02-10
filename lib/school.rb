@@ -3,8 +3,9 @@ class School
 
   new = []
 
-  def initialize(new)
+  def initialize(new, roster)
     @new = new
+    @roster = roster
   end
 
 end
