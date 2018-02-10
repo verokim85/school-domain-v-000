@@ -9,8 +9,7 @@ class School
   end
 
   def add_student(name, grade)
-    hash[] = [name]
-    hash[name] << grade
+    hash[name] = [name]
   end
 
 end
