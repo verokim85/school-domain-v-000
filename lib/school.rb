@@ -3,8 +3,8 @@ class School
 
   roster = {}
 
-  def initialize(new)
-    @new = new
+  def initialize(name)
+    @name = name
     end
 
 end
