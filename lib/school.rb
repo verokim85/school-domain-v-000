@@ -21,7 +21,7 @@ class School
   # end
 
   def add_student(student_name, grade)
-  
+
       if @roster.keys.include?(grade)
         @roster[grade] << student_name
         # binding.pry
