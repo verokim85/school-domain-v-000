@@ -3,9 +3,8 @@ class School
 
   roster = {}
 
-  def initialize(new, roster)
+  def initialize(new)
     @new = new
-    @roster = roster
-  end
+    end
 
 end
