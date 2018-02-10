@@ -13,9 +13,9 @@ class School
     @roster[grade] << name
       if grade.include? == true
           @roster << name
-      else 
+      else
         @roster[grade] << name
-      
+      end
     end
   end
 
